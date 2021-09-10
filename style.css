@@ -124,6 +124,40 @@ body{
         justify-content: space-between;
         gap: 10px;
     }
+    .explore-menu-lists{
+        display: flex;
+        margin-top: 50px;
+        
+    }
+    .explore-menu-card{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    #pizza-card{
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+
+    .explore-menu-container{
+        position: relative;
+    }
+    .explore-menu-bg-rombas{
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+      );
+      z-index: -5;
+      transform: skewY(-5deg);
+    }
 }
 
 /* for laptop */
@@ -138,10 +172,11 @@ body{
 
     .explore-menu-lists{
         display: flex;
-        
+        margin-left: 10px;
     }
     .explore-menu-card{
-        margin-right: 10px
+        margin-right: 10px;
+        
     }
 
     .explore-menu-text{
