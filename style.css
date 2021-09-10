@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* globle */
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #ebf2ff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 65px 0 rgba(0, 0, 0, .15);
+}
+
+.navbar-brand{
+    width: 35%;
+    margin-left: 10px
+}
+
+.navbar-logo{
+    width: 100%;
+}
+
+.button-primary{
+    background-color: rgb(177, 43, 65);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.hero-container{
+    width: 100%;
+}
+
+.hero-img-container{
+    width: 100%;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+
+/* for tablate */
+@media (min-width: 768px){
+    .navbar{
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+    .navbar-brand{
+        width: 150px;
+    }
+    .navbar-logo{
+        width: 150px;
+    }
+    .button-primary{
+        padding: 15px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .hero-container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+
+/* for laptop */
+@media (min-width: 1020px){
+    .container{
+        max-width: 1010px;
+    }
+    .hero-img-container{
+        width: 550px;
+        height: 550px;
+    }
+}
+
+/* for PC */
+@media (min-width: 1400px){
+    
+}
